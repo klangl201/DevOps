@@ -18,6 +18,18 @@ class Dec2Hex
                 System.exit(0);
         }
 
+        try
+        {
+                Arg1 = Integer.parseInt(args[0]);
+                num = Arg1;
+        }
+        catch (NumberFormatException e)
+        {
+                System.out.println("Input is not an integer");
+                System.exit(0);
+
+        }
+
 
 	Arg1 = Integer.parseInt(args[0]);
         num = Arg1;
