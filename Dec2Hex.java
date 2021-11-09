@@ -30,9 +30,6 @@ class Dec2Hex
 
         }
 
-
-	Arg1 = Integer.parseInt(args[0]);
-        num = Arg1;
 	System.out.println("Converting the Decimal Value " + num + " to Hex...");
         while(num != 0)
         {
