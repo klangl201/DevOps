@@ -15,7 +15,7 @@ class Dec2Hex
 	if(args.length == 0)
         {
                 System.out.println("Empty Input.");
-                System.exit(0);
+                return;
         }
 
         try
@@ -26,7 +26,7 @@ class Dec2Hex
         catch (NumberFormatException e)
         {
                 System.out.println("Input is not an integer");
-                System.exit(0);
+                return;
 
         }
 
