@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 class Dec2Hex
@@ -15,7 +16,6 @@ class Dec2Hex
 	if(args.length == 0)
         {
                 System.out.println("Empty Input.");
-		System.out.println("Empty Input.");
                 return;
         }
 
